@@ -1,4 +1,4 @@
-@set GRADLE_USER_HOME=F:\jEE
+@set GRADLE_USER_HOME=F:\PortableGit-1.8.1.2-preview20130201\Geektic
 @if "%GRADLE_USER_HOME%" == "" @echo Tu dois definir la variable d'environnement GRADLE_USER_HOME dans le fichier gradlew.bat (qui doit contenir le chemin absolu d'un repertoire sur ton disque dur externe).&goto omega
 
 @if "%DEBUG%" == "" @echo off

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="Geektic">
 		<property name="context-root" value="Geektic"/>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/jEE/caches/artifacts-23/filestore/org.glassfish.web/javax.servlet.jsp.jstl/1.2.1/jar/7f687140e9d264ee00eaa924714adf9a82cc18dc/javax.servlet.jsp.jstl-1.2.1.jar">
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/PortableGit-1.8.1.2-preview20130201/Geektic/caches/artifacts-23/filestore/org.glassfish.web/javax.servlet.jsp.jstl/1.2.1/jar/7f687140e9d264ee00eaa924714adf9a82cc18dc/javax.servlet.jsp.jstl-1.2.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
-		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/jEE/caches/artifacts-23/filestore/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api/1.2.1/jar/f072f63ab1689e885ac40c221df3e6bb3e64a84a/javax.servlet.jsp.jstl-api-1.2.1.jar">
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/PortableGit-1.8.1.2-preview20130201/Geektic/caches/artifacts-23/filestore/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api/1.2.1/jar/f072f63ab1689e885ac40c221df3e6bb3e64a84a/javax.servlet.jsp.jstl-api-1.2.1.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>

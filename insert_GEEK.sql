@@ -1,0 +1,3 @@
+--insert into GEEK(id,pseudo,age,hobbie) values(1,'FlofloJuly',22,'Jeux flash')
+--insert into GEEK(id,pseudo,age,hobbie) values(2,'Juchtine',20,'Mots Croisés')
+--insert into GEEK(id,pseudo,age,hobbie) values(3,'BDiaz',21,'Ipad;Cougars')

@@ -1,3 +1,0 @@
-/*C2*/SET SCHEMA PUBLIC
-CREATE TABLE GEEK(\u000aid numeric not null,\u000anom varchar(20) not null,\u000aprenom varchar(20) not null,\u000aprimary key(id)\u000a)
-DISCONNECT

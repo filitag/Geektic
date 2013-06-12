@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="Geektic">
 		<property name="context-root" value="Geektic"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/ressources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/ressources"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/F:/PortableGit-1.8.1.2-preview20130201/Geektic/caches/artifacts-23/filestore/org.hsqldb/hsqldb/2.2.9/jar/23365fb055315725a8e69777e3d2e1e8a5d4878f/hsqldb-2.2.9.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>

@@ -23,9 +23,7 @@ public class GeekService {
 		return geekDao.findAll();
 	}
 	
-	public Geek find (Long id) {
-		return geekDao.findById(id);
-	}
+
 	
 	public void create(Geek Geek) {
 		geekDao.persist(Geek);

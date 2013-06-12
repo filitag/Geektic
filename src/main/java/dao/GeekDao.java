@@ -22,7 +22,7 @@ public class GeekDao {
 	
 	@Transactional
 	public List<Geek> findAll() {
-		String jpql = "select * from GEEK  order by pseudo";
+		String jpql = "select geek from Geek geek order by geek.pseudo";
 		return em.createQuery(jpql, Geek.class).getResultList();
 	}
 	
@@ -31,10 +31,6 @@ public class GeekDao {
 		em.persist(spectacle);
 	}
 	
-	@Transactional
-	public Geek findById(Long id) {
-		return em.find(Geek.class, id);
-	}
 		
 	
 }

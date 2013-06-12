@@ -1,24 +1,25 @@
 package model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Entity
+@Table(name="GEEK")
 public class Geek {
-
-	/**
-	 * @param args
-	 */
+	
+	@Id
+	@Column(name="ID")
 	private int id;
 	private String pseudo;
 	private int age;
-	private String sexe;
+	//private String sexe;
 	private String hobbie;
-	private int cpt_id=0;
 	
-	public Geek(String pseudonyme,int age,String interet)
+	public Geek()
 	{
-		setId(cpt_id++);
-		pseudonyme = this.pseudo;
-		age = this.age;		
-		interet = this.hobbie;
+		super();
 	}
 
 	public int getId() {
@@ -53,7 +54,11 @@ public class Geek {
 		this.hobbie = hobbie;
 	}
 
-	
-	
+	/*public String getSexe() {
+		return sexe;
+	}
 
+	public void setSexe(String sexe) {
+		this.sexe = sexe;
+	}*/
 }
